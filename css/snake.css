@@ -28,7 +28,9 @@ h1{
 	position:absolute;
 	top:25px;
 	left:76px;
-	background:url("../images/start.png");
+	font-size: 30px;
+	font-family: "microsoft yahei", "Open Sans", sans-serif;
+	font-weight: bold;
 }
 #stop{
 	width:120px;
@@ -36,5 +38,6 @@ h1{
 	position:absolute;
 	top:25px;
 	right:76px;
-	background:url("../images/stop.png");	
+	background: url("../images/stop.png");
+
 }
