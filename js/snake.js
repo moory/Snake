@@ -97,6 +97,7 @@ var snake={
 	timer:null,
 	interval:200,
 	direction:0,
+	score:-3,
 	fruit:null,
 	start:function(){
 		document.getElementById("stop").onclick=function(){console.log(111);debugger;};
@@ -156,6 +157,8 @@ var snake={
 			case 2:this.fruit=new F3();break;
 			case 3:this.fruit=new F4();break;
 		}
+		this.score+=3;
+		document.getElementById("score").innerHTML=this.score;
 		this.paint();
 	},
 	move:function(){
